@@ -144,7 +144,7 @@ Scaling from one to hundreds of workers requires zero changes to your code. The 
 
 
 ### Fantomas 
-**Fantomas is Armada's in-house browser automation library, built on top of nodriver and purpose-built to run inside agent pods.**
+**Fantomas is Armada's in-house browser automation library, built on top of nodriver and purpose-built to run inside agent pods**
 
 - Human emulation out of the box. Every click follows a physics-based curved trajectory (WindMouse), and every keystroke is typed with randomized delays — no teleporting cursors or instant text injection.
 - Two interaction strategies. Native mode operates through Chrome's CDP protocol with emulation layers on top. XDO mode goes deeper, firing events at the OS level via xdotool, making them virtually indistinguishable from real user input.
